@@ -6,8 +6,6 @@ services:
         - "./src/:/usr/local/apache2/htdocs/:Z"
       container_name: homepage
       restart: always
-      ports:
-          - 8080:80
 
 networks:
   default:
